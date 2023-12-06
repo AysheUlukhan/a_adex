@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Manrope', sans-serif;;
+}
+
+:root {
+    --violet-blue-crayola: #757ED1;
+    --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
+    --white: #fff;
+    --white_a3: hsla(0, 0%, 100%, 0.03);
+    --white_a8: hsla(0, 0%, 100%, 0.08);
+    --white_a12: hsla(0, 0%, 100%, 0.12);
+    --white_a70: hsla(0, 0%, 100%, 0.7);
+    --cultured: hsla(220, 20%, 97%, 1);
+    --lavender-web: #E8EAF8;
+    --cadet-blue-crayola: hsla(220, 12%, 70%, 1);
+    --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
+    --charcoal: #343E51;
+    --raisin-black: hsla(216, 14%, 14%, 1);
+    --light-gray: hsla(0, 0%, 79%, 1);
+    --blue-crayola: hsla(219, 72%, 56%, 1);
+    --black-coral: #60697B;
+
+
+    --shadow-1: 0 0 20px hsla(216, 14%, 14%, 0.05);
+    --shadow-2: 0 0 0 0.05rem hsla(214, 88%, 27%, 0.08), 0 0 1.25rem hsla(216, 14%, 14%, 0.06);
+    --shadow-3: 0 0 1.25rem hsla(216, 14%, 14%, 0.04);
+}
+
+/* .px-110{
+    padding-left: 110px;
+    padding-right: 110px;
+} */
+
+header {
+    background-image: url('/assets/images/hero-bg.jpg');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-nav {
+    transition: all .20s ease;
+    font-size: 17px;
+    color: var(--charcoal);
+}
+
+.btn-nav:hover {
+    transform: translateY(-4px);
+
+}
+
+.btn-hero1{
+    transition: all .20s ease;
+    font-size: 17px;
+    color: var(--charcoal);
+}
+
+.btn-hero1:hover {
+    transform: translateY(-4px);
+
+}
+
+.btn-hero2{
+    transition: all .20s ease;
+    font-size: 17px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-hero2:hover{
+    background-color: white;
+    color: var(--charcoal);
+    transform: translateY(-4px);
+}
+
+.section-services{
+    padding-top: 30px
+}
+
+.section-services .feature{
+    padding: 3rem;
+}
+
+.section-title{
+    font-size: 15px;
+    color: var(--violet-blue-crayola);
+}
+
+.section-content{
+    color: var(--charcoal);
+    font-size: 34.448px;
+}
+
+.section-about a{
+    font-size: 17px;
+    color: var(--charcoal);
+}
+
+.section-about a:hover{
+    color: var(--violet-blue-crayola);
+}
+
+.section-about .collapse{
+    color: var(--black-coral);
+}
+
+.feature-content{
+    color: var(--black-coral);
+}
+
+.px{
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
+}
+
+.section-services .card{
+    padding: 30px 20px 30px 20px;
+    box-shadow: var(--shadow-2);
+}
+
+.services-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--violet-blue-crayola);
+    width: 60px;
+    height: 60px;
+}
+
+.services-icon i{
+    font-size: 25px;
+    color: var(--white);
+}
+
+.section-services .card-body a{
+    color: var(--violet-blue-crayola);
+}
+
+.section-services .card-body .card-title{
+    font-size: 19px;
+    color: var(--charcoal);
+}
+
+.section-services .card-body .card-text{
+    color: var(--black-coral);
+    font-size: 17px;
+}
+
+.feature-icon{
+    width: 30px;
+    height: 25px;
+    background-color: var(--lavender-web);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.feature-icon i{
+    color: var(--black-coral);
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: #1F2329;
+    }
+
+    .btn-nav {
+        visibility: hidden;
+    }
+}
+
+@media (max-width:1024px) {
+    .px{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+@media (max-width:992px) {
+    .px{
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+}
+
+@media (max-width:768px) {
+    .px{
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;
+    }
+}
+
+@media (max-width:576px) {
+    .px{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+@media (max-width:992px) {
+    .hero{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:320px) {
+    .hero .hero-btn{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
