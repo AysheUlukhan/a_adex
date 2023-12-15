@@ -228,7 +228,7 @@ nav .social-icon i{
     color: white;
 }
 
-.cta h2{
+.cta h3{
     padding-bottom: 30px;
 }
 
@@ -380,7 +380,7 @@ footer button{
 }
 
 @media (min-width:992px) {
-    .cta h2{
+    .cta h3{
         max-width: 30ch;
     }
 }
