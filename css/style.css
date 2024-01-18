@@ -41,7 +41,7 @@
 } */
 
 header {
-    background-image: url('/assets/images/hero-bg.jpg');
+    background-image: url('../assets/images/hero-bg.jpg');
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
